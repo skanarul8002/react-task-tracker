@@ -1,4 +1,4 @@
-# Create React-Task-Tracker App with differents functionalities(delete,toggle,drag,cmplt,incmplt)
+## Create React-Task-Tracker App with differents functionalities(delete,toggle,drag,cmplt,incmplt)
 ![Screenshot 2024-02-01 193746](https://github.com/skanarul8002/react-task-tracker/assets/112712827/51e59d64-f6c3-443f-9a11-be7242b96626)
 ![Screenshot 2024-02-01 193924](https://github.com/skanarul8002/react-task-tracker/assets/112712827/414f2d11-1ad6-44f4-bcd6-06314669351b)
 ![Screenshot 2024-02-01 194219](https://github.com/skanarul8002/react-task-tracker/assets/112712827/b907b61e-0e0d-4451-b13b-752baffc49b7)

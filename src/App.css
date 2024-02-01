@@ -1,0 +1,135 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin:1%;
+  border:2px solid#2f1615;
+  padding: 0;
+  background-color: #27b7db;
+  
+}
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  color: #333;
+  text-shadow: 2px 2px 2px #21e499; 
+  font-family: serif; 
+}
+h2 {
+  color: #118296; 
+  text-shadow: 2px 2px 2px #21e499; 
+  font-family: 'Arial', sans-serif; 
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+  margin-left:30%;
+  margin-right:30%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+#b3 {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 30%;  
+  margin-right:30%; 
+  
+
+}
+.action-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 7px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin: 7px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.task h3 {
+  margin: 0;
+  color: #333;
+}
+
+.task p {
+  margin: 5px 0;
+  color: #777;
+}
+
+.task button {
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.task button:hover {
+  background-color: #c9302c;
+}
+
+.task button:last-child {
+  background-color: #5bc0de;
+}
+
+.task button:last-child:hover {
+  background-color: #46b8da;
+}
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  input{
+    width:30%;
+    margin: auto;
+  }
+  button {
+    width: 20%;
+  }
+}
+@media (max-width: 601px) and (max-width: 900px){
+  #b3{
+    width: 20%;
+    margin: auto;
+  }
+  input{
+    width:30%;
+    margin-bottom: 5px;
+  }
+}
+
